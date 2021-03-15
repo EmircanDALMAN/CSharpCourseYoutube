@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AccessModifiersDemo;
+using System;
 
 namespace Arrays
 {
@@ -6,6 +7,9 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
+
+            Database database = new Database();
+            database.Add();
             //Arrays - Diziler
 
             string[] students = {"Emircan", "Ali", "Hüseyin"};
