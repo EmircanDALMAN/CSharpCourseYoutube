@@ -18,37 +18,6 @@ namespace Constructor
         public static int Id { get; set; }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     interface IDatabase
     {
         
