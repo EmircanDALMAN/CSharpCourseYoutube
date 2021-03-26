@@ -35,7 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueAndReferenceTypes", "V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception", "Exception\Exception.csproj", "{7F8D66A0-8ACE-4894-8E0C-FE7837424BAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{F5983691-CDDD-4D1F-8C1C-DD9C6C40D6AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{F5983691-CDDD-4D1F-8C1C-DD9C6C40D6AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{B6412D86-E8A2-4BD7-A100-72AEA4F77FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{861563EC-37E4-4EDB-B3DD-E64F640A867B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{F5983691-CDDD-4D1F-8C1C-DD9C6C40D6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5983691-CDDD-4D1F-8C1C-DD9C6C40D6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5983691-CDDD-4D1F-8C1C-DD9C6C40D6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6412D86-E8A2-4BD7-A100-72AEA4F77FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6412D86-E8A2-4BD7-A100-72AEA4F77FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6412D86-E8A2-4BD7-A100-72AEA4F77FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6412D86-E8A2-4BD7-A100-72AEA4F77FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861563EC-37E4-4EDB-B3DD-E64F640A867B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861563EC-37E4-4EDB-B3DD-E64F640A867B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861563EC-37E4-4EDB-B3DD-E64F640A867B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861563EC-37E4-4EDB-B3DD-E64F640A867B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
