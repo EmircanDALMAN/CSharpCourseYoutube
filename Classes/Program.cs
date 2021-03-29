@@ -6,7 +6,6 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-
             Customer customer = new Customer
             {
                 Id = 1,
